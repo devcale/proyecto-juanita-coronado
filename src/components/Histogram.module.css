@@ -1,0 +1,22 @@
+.square {
+  width: 100%;
+  height: 8px;
+  background-color: #000;
+  margin: 2px;
+  display: inline-block;
+}
+
+.bar {
+  width: 90%;
+  margin-right: 1%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.histogram {
+  padding: 5px;
+  border: 2px solid #ddd;
+  background-color: #f9f9f9;
+  display: flex;
+}

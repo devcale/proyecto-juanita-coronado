@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import sampleImage from "../assets/braillesample.jpg";
 import styles from "./BottomSectionTwo.module.css";
+import Histogram from "./Histogram";
 
 const BottomSectionTwo = () => {
   let speech;
+  const data = [591, 578, 552, 498, 569, 556, 635, 574, 516, 566, 534, 689];
 
   const getSpanishVoice = () => {
     const voices = window.speechSynthesis.getVoices();
@@ -69,33 +71,28 @@ const BottomSectionTwo = () => {
           se agudizan. A continuación, te propongo participar en una experiencia
           sensorial que se enfocará en el tacto y el sonido para representar
           información. Sigue los pasos detallados a continuación: Preparación
-          auditiva: Vamos a utilizar sonidos perceptibles y de intensidad
-          moderada, similares a los pitidos que se escuchan en una audiometría.
-          Estos sonidos se emplearán para captar tu atención y guiarte en el
-          proceso de interpretación de los datos. Tacto como herramienta
+          auditiva: En lugar de símbolos en relieve como en el sistema Braille,
+          interactuarás con un histograma compuesto de pequeños bloques. Cada
+          bloque que toques o pases con el cursor representará una víctima, y te
+          proporcionará un nombre, ayudándote a "sentir" los datos a través del
+          sonido. Estos sonidos se emplearán para captar tu atención y guiarte
+          en el proceso de interpretación de los datos. Tacto como herramienta
           principal: Dado que en esta experiencia no contamos con la vista,
           usaremos el tacto para interpretar la información. Los datos serán
-          representados mediante símbolos en relieve, similares al lenguaje
-          Braille. Estos símbolos serán organizados de acuerdo con los
-          siguientes criterios: Círculos pequeños para representar las víctimas
-          femeninas (ciclistas). Círculos grandes para representar las víctimas
-          masculinas (ciclistas). Triángulos para identificar a los menores de
-          edad fallecidos. Interpretación de los datos: Los datos representan el
-          número de ciclistas fallecidos en accidentes de tránsito durante el
-          año 2018, divididos en tres categorías principales: género y edad.
-          Cada símbolo en relieve te permitirá "leer" la información tocando las
-          formas y reconociendo a qué grupo corresponde cada una. Instrucciones
-          de interpretación: Coloca las manos sobre los símbolos en relieve. Al
-          reconocer un círculo pequeño, sabrás que estás leyendo una víctima
-          femenina. Si identificas un círculo grande, estarás frente a una
-          víctima masculina. Los triángulos te indicarán que la víctima era
-          menor de edad, independientemente de su género. Finalización de la
-          experiencia: Al finalizar, reflexiona sobre cómo la ausencia de la
-          vista te ha permitido percibir los datos de una manera diferente, a
-          través del sonido y el tacto, lo que refuerza la importancia de
-          adaptar la información para ser accesible a todos.
+          representados mediante bloques virtuales, similares al lenguaje
+          Braille. Los datos están organizados de acuerdo con el número de
+          ciclistas fallecidos por mes en el año 2018. Cada barra en el
+          histograma corresponde a un mes, y el número de bloques representa el
+          total de víctimas en ese mes. Haz hover sobre cualquier bloque para
+          escuchar un nombre. Cada bloque representa una persona fallecida. A
+          medida que interactúes con los bloques, estarás accediendo a los
+          nombres de las víctimas. Finalización de la experiencia: Al finalizar,
+          reflexiona sobre cómo la ausencia de la vista te ha permitido percibir
+          los datos de una manera diferente, a través del sonido y el tacto, lo
+          que refuerza la importancia de adaptar la información para ser
+          accesible a todos.
         </p>
-        <img src={sampleImage} alt="Middle Content" className={styles.image} />
+        <Histogram data={data} />
       </div>
     </div>
   );
