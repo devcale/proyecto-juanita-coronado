@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sampleImage from "../assets/placeholder.png"; // Ensure you have an image in src/assets
+import sampleImage from "../assets/placeholder-modified.png"; // Ensure you have an image in src/assets
 import styles from "./MiddleImage.module.css";
 
 const MiddleImage = () => {
