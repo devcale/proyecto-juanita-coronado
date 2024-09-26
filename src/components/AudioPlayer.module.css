@@ -1,0 +1,11 @@
+.container {
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  width: 100%;
+  text-align: center;
+  background-color: #e6e6e6;
+}
+
+.audio {
+  width: 100%;
+}

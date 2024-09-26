@@ -1,7 +1,7 @@
 {
   "name": "jitaco",
   "version": "0.1.0",
-  "homepage":"devcale.github.io/proyecto-juanita-coronado",
+  "homepage": "https://devcale.github.io/proyecto-juanita-coronado",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
