@@ -1,0 +1,33 @@
+.sideBySideContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 6vh;
+}
+
+.container {
+  background-color: "#f8f8f8";
+  padding-top: 6vh;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: "#555";
+  text-align: center;
+  width: 45%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.line {
+  font-size: 18px;
+  color: "#555";
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.image {
+  width: 45%;
+}
