@@ -1,6 +1,7 @@
 {
   "name": "jitaco",
   "version": "0.1.0",
+  "homepage":"devcale.github.io/proyecto-juanita-coronado",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
