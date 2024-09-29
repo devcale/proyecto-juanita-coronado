@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto-juanita-coronado/static/css/main.cbe6dfad.css",
-    "main.js": "/proyecto-juanita-coronado/static/js/main.07e50b0c.js",
+    "main.js": "/proyecto-juanita-coronado/static/js/main.6c41b3aa.js",
     "static/js/453.7642e870.chunk.js": "/proyecto-juanita-coronado/static/js/453.7642e870.chunk.js",
     "static/media/sample-song.mp3": "/proyecto-juanita-coronado/static/media/sample-song.b74f39d15fd5498f81e4.mp3",
     "static/media/braillesample.jpg": "/proyecto-juanita-coronado/static/media/braillesample.006117c257de870b17dc.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.svg": "/proyecto-juanita-coronado/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/proyecto-juanita-coronado/index.html",
     "main.cbe6dfad.css.map": "/proyecto-juanita-coronado/static/css/main.cbe6dfad.css.map",
-    "main.07e50b0c.js.map": "/proyecto-juanita-coronado/static/js/main.07e50b0c.js.map",
+    "main.6c41b3aa.js.map": "/proyecto-juanita-coronado/static/js/main.6c41b3aa.js.map",
     "453.7642e870.chunk.js.map": "/proyecto-juanita-coronado/static/js/453.7642e870.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbe6dfad.css",
-    "static/js/main.07e50b0c.js"
+    "static/js/main.6c41b3aa.js"
   ]
 }
