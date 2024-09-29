@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sampleImage from "../assets/defaultwoman.png";
+import sampleImage from "../assets/foto.jpg";
 import styles from "./BottomSectionOne.module.css";
 
 const BottomSectionOne = () => {

@@ -13,7 +13,6 @@ function App() {
       <MiddleImage />
       <BottomSectionOne />
       <BottomSectionTwo />
-      <AudioPlayer />
     </div>
   );
 }
