@@ -57,7 +57,12 @@ const BottomSectionTwo = () => {
   return (
     <div className={styles.container}>
       <div className={styles.sideBySideContainer}>
-        <h3 onMouseEnter={handleParagraphText} onMouseLeave={stopSpeech}>
+        <h3
+          onMouseEnter={handleParagraphText}
+          onMouseLeave={stopSpeech}
+          onTouchStart={handleParagraphText}
+          onTouchEnd={stopSpeech}
+        >
           Instrucciones para una experiencia sensorial de representación de
           datos.
         </h3>
@@ -65,6 +70,8 @@ const BottomSectionTwo = () => {
           className={styles.paragraph}
           onMouseEnter={handleParagraphText}
           onMouseLeave={stopSpeech}
+          onTouchStart={handleParagraphText}
+          onTouchEnd={stopSpeech}
         >
           Imaginemos que todos hemos perdido el sentido de la vista de manera
           repentina. Al enfrentarnos a esta situación, nuestros otros sentidos

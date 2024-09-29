@@ -65,6 +65,8 @@ const MiddleImage = () => {
           className={styles.image}
           onMouseEnter={handleImageText}
           onMouseLeave={stopSpeech}
+          onTouchStart={handleImageText}
+          onTouchEnd={stopSpeech}
         />
       </a>
     </div>

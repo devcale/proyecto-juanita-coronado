@@ -27,6 +27,8 @@ const Square = () => {
     <div
       onMouseEnter={handleHover}
       onMouseLeave={stopSpeech}
+      onTouchStart={handleHover}
+      onTouchEnd={stopSpeech}
       className={styles.square}
     />
   );

@@ -57,6 +57,8 @@ const HeaderParagraph = () => {
         className={styles.paragraph}
         onMouseEnter={handleParagraphText}
         onMouseLeave={stopSpeech}
+        onTouchStart={handleParagraphText}
+        onTouchEnd={stopSpeech}
       >
         La accesibilidad de la información es un reto importante, especialmente
         en una era donde los gráficos, los diagramas y las visualizaciones

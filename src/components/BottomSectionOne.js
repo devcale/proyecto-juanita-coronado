@@ -62,7 +62,9 @@ const BottomSectionOne = () => {
       <div className={styles.sideBySideContainer}>
         <p className={styles.paragraph}
         onMouseEnter={handleParagraphText}
-        onMouseLeave={stopSpeech}>
+        onMouseLeave={stopSpeech}
+        onTouchStart={handleParagraphText}
+        onTouchEnd={stopSpeech}>
           Hace seis años perdí a una amiga que marcó mi infancia. Ella era una
           promesa del triatlón para el año 2019. Lamentablemente, en mayo de
           2018, perdió la vida en un accidente de tránsito mientras entrenaba en
